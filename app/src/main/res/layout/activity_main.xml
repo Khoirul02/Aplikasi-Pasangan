@@ -8,6 +8,19 @@
         android:gravity="center_vertical"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi Jodoh Kelas Programmer"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:textSize="30dp"
+            android:textColor="#F8F8FF"
+            android:layout_marginBottom="70dp"
+            android:background="#00BFFF"/>
+
     <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -42,14 +55,12 @@
                 android:src="@drawable/pasangan"
                 android:layout_gravity="center"
                 android:layout_marginRight="40dp"/>
-        <TextView
+        <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:gravity="center"
                 android:layout_gravity="center_vertical"
-                android:text="VS"
-                android:textColor="#008577"
-                android:textSize="35dp"
+                android:src="@drawable/versus"
                 />
         <ImageView
                 android:id="@+id/foto_wanita"
@@ -66,7 +77,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="@string/cari"
+            android:text="CARI"
             android:bufferType="editable"
             android:layout_marginTop="30dp"/>
 
