@@ -19,16 +19,16 @@ class MainActivity : AppCompatActivity() {
             1-> R.drawable.huda_mobile
             2-> R.drawable.filipus_mobile
             3-> R.drawable.edi_mobile
-            4-> R.drawable.pria_1
-            5-> R.drawable.pria_2
+            4-> R.drawable.iav
+            5-> R.drawable.harris
             else -> R.drawable.pasangan
         }
         val drawableResWanita = when (randomWanita){
             1-> R.drawable.fuji_mobile
             2-> R.drawable.hanum_mobile
-            3-> R.drawable.wanita_1
-            4-> R.drawable.wanita_2
-            5-> R.drawable.wanita_3
+            3-> R.drawable.ayulest
+            4-> R.drawable.mela
+            5-> R.drawable.umikhotimatuss
             else-> R.drawable.pasangan
         }
         foto_pria.setImageResource(drawableResPria)
