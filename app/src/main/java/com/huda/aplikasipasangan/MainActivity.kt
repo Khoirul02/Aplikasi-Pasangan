@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         btn_cari.setOnClickListener { cari() }
     }
     private fun cari(){
-        val randomPria = Random().nextInt(5)+1
+        val randomPria = Random().nextInt(13)+1
         val randomWanita = Random().nextInt(5)+1
         val drawableResPria = when (randomPria){
             1-> R.drawable.huda_mobile
